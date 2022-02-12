@@ -6,7 +6,7 @@ import { Search, SearchIconWrapper, StyledInputBase } from './styles'
 
 function Header() {
   return (
-    <AppBar position="static">
+    <AppBar position="static" className="">
       <Toolbar>
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           TRIP ADVISOR
