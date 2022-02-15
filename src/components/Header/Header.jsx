@@ -4,7 +4,7 @@ import { AppBar, Toolbar, Typography, Box } from '@mui/material'
 import SearchIcon from '@mui/icons-material/Search';
 import { Search, SearchIconWrapper, StyledInputBase } from './styles'
 
-function Header() {
+const Header = () => {
   return (
     <AppBar position="static" className="">
       <Toolbar>

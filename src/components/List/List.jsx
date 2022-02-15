@@ -3,27 +3,9 @@ import { Typography, InputLabel, MenuItem, FormControl, Select, Grid } from '@mu
 import PlaceDetails from '../PlaceDetails/PlaceDetails'
 import { maxHeight } from '@mui/system'
 
-function List() {
+const List = ({ places }) => {
   const [type, setType] = useState('restaurants')
   const [rating, setRating] = useState(0)
-
-  const places = [
-    { 'name': 'Cool Place' },
-    { 'name': 'Best Beer' },
-    { 'name': 'Best Steak' },
-    { 'name': 'Cool Place' },
-    { 'name': 'Best Beer' },
-    { 'name': 'Best Steak' },
-    { 'name': 'Cool Place' },
-    { 'name': 'Best Beer' },
-    { 'name': 'Best Steak' },
-    { 'name': 'Cool Place' },
-    { 'name': 'Best Beer' },
-    { 'name': 'Best Steak' },
-    { 'name': 'Cool Place' },
-    { 'name': 'Best Beer' },
-    { 'name': 'Best Steak' },
-  ]
 
   return (
     <div style={{ paddingLeft: '30px' }}>
